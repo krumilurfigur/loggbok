@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-20T11:26:28.128Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="0tnJu88rlaR4IDt-RoLC" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-20T11:39:18.703Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="_RijPhaYObi6qWCesuwg" version="13.8.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1037" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
           <mxGeometry y="114" width="220" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Sw8ZUtSiQkh7nKTKEAph-15" value="post" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" y="120" width="220" height="270" as="geometry">
+          <mxGeometry x="470" y="120" width="220" height="330" as="geometry">
             <mxRectangle x="220" y="120" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -49,6 +49,24 @@
         </mxCell>
         <mxCell id="Sw8ZUtSiQkh7nKTKEAph-21" value="+ edit(b:string, a:user, t: string);" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=0;" vertex="1" parent="Sw8ZUtSiQkh7nKTKEAph-15">
           <mxGeometry y="160" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Sw8ZUtSiQkh7nKTKEAph-25" value="+ save(b:string, a:user, t:string, i:int)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=0;" vertex="1" parent="Sw8ZUtSiQkh7nKTKEAph-15">
+          <mxGeometry y="180" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Sw8ZUtSiQkh7nKTKEAph-26" value="+ load(i:int)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=0;" vertex="1" parent="Sw8ZUtSiQkh7nKTKEAph-15">
+          <mxGeometry y="200" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Sw8ZUtSiQkh7nKTKEAph-27" value="+ getBody(): string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=0;" vertex="1" parent="Sw8ZUtSiQkh7nKTKEAph-15">
+          <mxGeometry y="220" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Sw8ZUtSiQkh7nKTKEAph-28" value="+ getAuthor(): string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=0;" vertex="1" parent="Sw8ZUtSiQkh7nKTKEAph-15">
+          <mxGeometry y="240" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Sw8ZUtSiQkh7nKTKEAph-29" value="+ getTime(): string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=0;" vertex="1" parent="Sw8ZUtSiQkh7nKTKEAph-15">
+          <mxGeometry y="260" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Sw8ZUtSiQkh7nKTKEAph-30" value="+ getId(): string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=0;" vertex="1" parent="Sw8ZUtSiQkh7nKTKEAph-15">
+          <mxGeometry y="280" width="220" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
